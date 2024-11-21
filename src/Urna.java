@@ -38,9 +38,17 @@ public class Urna {
         return 1;
     }
 
-    private Bola sacar(){
-        return Bola ;
+    public Color sacar (Color color){
+        return color;
     }
+
+
+
+    public Bola sacar(Bola bola){
+        return bola ;
+    }
+
+
 
 
 }
